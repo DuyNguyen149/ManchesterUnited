@@ -1,0 +1,82 @@
+:root {
+    --primary-color: rgb(151,33,45);
+    --white-color: #fff;
+    --black-color: #000;
+    --text-header-color: rgb(226,208,208);
+    --text-color: rgb(26,26,26);
+    --header-line-height: 60px;
+    --bg-manager-color: rgb(63,63,63);
+}
+
+* {
+    box-sizing: inherit;
+    border: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/font/Montserrat-SemiBold.otf');
+    font-style: normal;
+    font-weight: 100;    
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/font/Montserrat-Regular.otf');
+    font-size: normal;
+}
+
+html {
+    /* 62.5% tương ứng 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Montserrat-SemiBold';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.manager-msg {
+    font-family: 'Montserrat-Regular';
+}
+
+li {
+    list-style: none;
+}
+
+/* Common */
+.content-players,
+.content-manager,
+.content-legend {
+    font-size: 2.8rem;
+    margin: 40px 0 40px 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content-players::after {
+    content: "";
+    display: block;
+    background-color: rgb(200,22,23);
+    height: 4px;
+    width: 127px;
+    margin-top: 6px;
+}
+
+.content-manager::after {
+    content: "";
+    display: block;
+    background-color: rgb(200,22,23);
+    height: 4px;
+    width: 148px;
+    margin-top: 6px;
+}
+
+.content-legend::after {
+    content: "";
+    display: block;
+    background-color: rgb(200,22,23);
+    height: 4px;
+    width: 133px;
+    margin-top: 6px;
+}

@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background-img {
+    background: url(../img/mu_iconic/img_mu.jpg) no-repeat center center; 
+    height: auto;
+    background-size: cover;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 360px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: center;
+    background: var(--white-color);
+    border-radius: 2px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+
+.form .heading {
+    font-size: 2rem;    
+}
+
+.heading {
+    background-color: red;
+    height: 30px;
+    line-height: 30px;
+    color: var(--white-color);
+}   
+
+form .desc {
+    text-align: center;
+    color: #636d77;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+#gender {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+#gender span {
+    padding: 6px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.form-label,
+.form-message {
+    text-align: left;   
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.form-control:hover {
+    border-color: var(--primary-color);
+}
+
+.form-message {
+    color: var(--error-msg-color);
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: red;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: var(--white-color);
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    opacity: .8;
+}
+
+.spacer {
+    margin-top: 36px;
+}
+
